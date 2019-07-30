@@ -1,17 +1,17 @@
 {
   "debug": true,
   "server": {
-    "address": ":3000"
+    "address": ":YOUR_PORT"
   },
   "context":{
     "timeout":2
   },
   "database": {
-      "host": "db4free.net",
-      "port": "3306",
-      "user": "root_wb2",
-      "pass": "holmes4869",
-      "name": "idm_wb2"
+      "host": "YOUR_DB_HOST",
+      "port": "YOUR_DB_PORT",
+      "user": "YOUR_DB_USER",
+      "pass": "YOUR_DB_PASSWORD",
+      "name": "YOUR_DB_NAME"
   }
 
 }
